@@ -48,6 +48,9 @@ appVersion 1.16.0
 - onlyUpdateVersion (optional) - boolean (default: false)  
   Don't change `appVersion` if this is true. Useful if your chart is in a different git repo than the application.
 
+- updateDependencies (optional) - boolean (default: false)  
+  Update dependencies versions to latest in Chart.yaml.
+
 - crPublish (optional) - boolean  
   Enable chart-releaser publishing
 
